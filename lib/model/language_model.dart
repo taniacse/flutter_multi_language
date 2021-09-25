@@ -19,6 +19,7 @@ class LanguageModel {
     return <LanguageModel>[
       LanguageModel("🇺🇸", "English", 'en'),
       LanguageModel("🇮🇳", "हिंदी", 'hi'),
+      LanguageModel("🇧🇩", "বাংলা", 'bn'),
     ];
   }
 }

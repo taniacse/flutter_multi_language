@@ -56,10 +56,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       locale: _locale,
       home: HomePageScreen(),
-      supportedLocales: [
-        Locale('en', ''),
-        Locale('hi', ''),
-      ],
+      supportedLocales: [Locale('en', ''), Locale('hi', ''), Locale('bn', '')],
       localizationsDelegates: [
         AppLocalizationsDelegate(),
         GlobalMaterialLocalizations.delegate,

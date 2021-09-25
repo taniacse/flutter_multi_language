@@ -58,6 +58,7 @@ class _ChangeLanguageScreenState extends State<ChangeLanguageScreen> {
           underline: SizedBox(),
           hint: Text(Languages.of(context).labelSelectLanguage),
           onChanged: (LanguageModel language) {
+            print("On Changed ${language.languageCode}");
             changeLanguage(context, language.languageCode);
           },
           items: LanguageModel.languageList()
